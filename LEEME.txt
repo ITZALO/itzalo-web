@@ -1,0 +1,31 @@
+ITZALO — respaldo del sitio (mockup de trabajo)
+================================================
+
+Este es el codigo completo del mockup del sitio de Itzalo, tal como esta
+publicado ahora mismo, listo para abrirse en Visual Studio Code y subirse
+a la plataforma que se decida (GitHub + Vercel/Netlify, hosting propio, etc).
+
+No es el sitio en vivo de itzalo.com.mx — es la propuesta de restructuracion
+que se ha ido construyendo en este chat. El banner superior de la pagina lo
+deja claro ("MOCKUP DE TRABAJO"); se puede quitar facilmente en index.html
+buscando la clase "draft-strip".
+
+Estructura:
+  index.html      -> todo el sitio (HTML + CSS + JS en un solo archivo)
+  images/         -> las 8 imagenes que usa la pagina (logo, fotos de
+                     trabajos reales, iconos de lobo/fenix)
+
+Para verlo: abre index.html directo en el navegador, o corre un servidor
+local simple desde esta carpeta, por ejemplo:
+  python3 -m http.server 8000
+y entra a http://localhost:8000
+
+Pendiente (temas que quedaron abiertos en el chat, para cuando se retome):
+  - Decidir plataforma final (GitHub+Vercel/Netlify vs GoDaddy) y que tan
+    viable es replicar esto ahi.
+  - Jugar con los colores: meter secciones claras (Gris Acero/Blanco Puro)
+    como respiro entre las secciones oscuras.
+  - Confirmar datos reales para el FAQ: zona de cobertura, dias de garantia,
+    tiempo de respuesta.
+  - Definir titulo (Fundador y CEO vs Ingeniero de Sistemas Integrales) y
+    que significa "S.E.N.D.A." de la tarjeta de presentacion de referencia.
